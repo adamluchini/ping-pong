@@ -9,10 +9,13 @@ $(document).ready(function() {
   for (i = 1; i <= NumberToPong; i++) {
     if (i%15===0){
       message="Ping Pong"
-    }
-    else{
+    }else if (i%5===0){
+      message="Pong"
+    }else if (i%3===0){
+      message="Ping"
+    }else{
     message=i;
-  }
+    }
     $("#results").append("<li>" + message + "</li>");
     event.preventDefault();
   }
