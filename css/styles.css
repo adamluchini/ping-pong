@@ -1,6 +1,9 @@
 /*#results {
   display: none;
 }*/
+.body{
+  background-color: #B20000;
+}
 .jumbotron{
   background-color: #006400;
   color: white;
@@ -11,9 +14,21 @@
   color: white;
 }
 
+.button {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
 #playResults {
   text-align: center;
   font-size: 22px;
   color: white;
   background-color: #B20000;
+}
+
+#playPingPong {
+  color: black;
 }

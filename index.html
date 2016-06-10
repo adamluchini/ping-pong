@@ -7,28 +7,27 @@
       <script src="js/jquery-1.12.4.js"></script>
       <script src="js/scripts.js"></script>
   </head>
-  <body>
+  <body class="body">
       <div class="jumbotron">
         <div class="container">
           <h1>Sedentary Ping Pong</h1>
           <img src="img/sloth-pong.jpg" alt="sloth" />
-          <h2>All the fun of Ping Pong without having to leave your chair!</h2>
+          <h2>Have all the fun of Ping Pong without leaving your chair!</h2>
         </div>
       </div>
           <div id="playResults">
             <h2>How to Play</h2>
-            <h3>Ping Pong will count up to your number from 1 with the following exceptions:</h3>
+            <h3>Sedentary Ping Pong will generate a list from #1 to the number you enter while converting...:</h3>
               <ul>
-                <p>Any numbers divisible by 3 will "Ping"</p>
-                <p>Any numbers divisible by 5 will "Pong"</p>
-                <p>Any numbers divisible by 15 will "Ping Pong"</p>
+                <p>Any numbers divisible by 3 into "Ping"</p>
+                <p>Any numbers divisible by 5 into "Pong"</p>
+                <p>Any numbers divisible by 15 into "Ping Pong"</p>
               </ul>
             <form id="playPingPong"   class="form-inline">
               <div class="form-group">
-                <label for="number">Enter a number</label>
-                <input id="number" type="text">
+                <input id="number" type="text" placeholder="type a number here">
               </div>
-              <button type="submit" class="btn">Serve!</button>
+              <button class="button" type="submit" class="btn">Serve!</button>
             </form>
             <!-- <br> -->
             <div id="results">
