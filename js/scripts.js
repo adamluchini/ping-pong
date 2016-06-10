@@ -18,7 +18,8 @@ $(document).ready(function() {
     }else{
     message = "Please enter a valid number"
     }
-    // $(".list-ping-pong li").remove(); Trying to use this to make the existing list disappear
+    // $(".ping-pong-list li").remove();
+    //trying to remove previous display
     $("#results").append("<li>" + message + "</li>");
     event.preventDefault();
   }
