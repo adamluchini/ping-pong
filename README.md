@@ -20,9 +20,13 @@ _{HTML, CSS, Bootstrap, JavaScript, jquery 1.12.4,}_
 *{This program is licensed under MIT}*
 
 ### Specifications
-*Generates a list that starts at #1 and stops at the user's input #. Example: if the user inputs 800, it will generate a list of all values between 1 and 800.
-Replaces all multiples of 3 with the term "Ping". Example: if the user inputs 7, it will generate the list [1, 2, ping, 4, 5, ping, 7]
-Replaces all multiples of 5 with the term "Pong". Example: if the user inputs 11, it will generate the list [1, 2, ping, 4, pong, ping, 7, 8, ping, 9, pong]
-Replaces all multiples of 15 with the term "Ping Pong". Example: if the user inputs 15, it will generate the list [1, 2, ping, 4, pong, ping, 7, 8, ping, 9, pong, 11, ping, 13, 14, Ping Pong]
+*Generates a list that starts at #1 and stops at the user's input #.
+-Example: if the user inputs 800, it will generate a list of all values between 1 and 800.
+Replaces all multiples of 3 with the term "Ping".
+-Example: if the user inputs 7, it will generate the list [1, 2, ping, 4, 5, ping, 7]
+Replaces all multiples of 5 with the term "Pong".
+-Example: if the user inputs 11, it will generate the list [1, 2, ping, 4, pong, ping, 7, 8, ping, 9, pong]
+Replaces all multiples of 15 with the term "Ping Pong".
+-Example: if the user inputs 15, it will generate the list [1, 2, ping, 4, pong, ping, 7, 8, ping, 9, pong, 11, ping, 13, 14, Ping Pong]
 
 Copyright (c) 2016 **_{Adam Luchini}_**
