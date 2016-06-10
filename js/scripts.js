@@ -19,9 +19,9 @@ $(document).ready(function() {
     }else{
     alert("Please enter a valid number");
     }
-    $("#results").append("<li>" + message + "</li>");
+$("#results").append("<li>" + message + "</li>");
     event.preventDefault();
-    $(".ping-pong-list").show(); /*for showing new result*/
+  $(".ping-pong-list").show(); /*for showing new result*/
   }
  });
 });
