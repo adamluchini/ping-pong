@@ -4,6 +4,7 @@ var message = "";
 //user end
 $(document).ready(function() {
   $("form#playPingPong").submit(function(event) {
+    $("li").remove(); /*for removing existing result*/
 
   var NumberToPong = parseInt($("#number").val());
   for (i = 1; i <= NumberToPong; i++) {
@@ -16,12 +17,11 @@ $(document).ready(function() {
     }else if (i!==0){
     message=i;
     }else{
-    message = "Please enter a valid number"
+    alert("Please enter a valid number");
     }
-    // $(".ping-pong-list li").remove();
-    //trying to remove previous display
     $("#results").append("<li>" + message + "</li>");
     event.preventDefault();
+    $(".ping-pong-list").show(); /*for showing new result*/
   }
  });
 });
