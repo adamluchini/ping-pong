@@ -21,7 +21,7 @@ _{HTML, CSS, Bootstrap, JavaScript, jquery 1.12.4,}_
 
 ### Specifications
 *Generates a list that starts at #1 and stops at the user's input #.
--Example: if the user inputs 800, it will generate a list of all values between 1 and 800.
+-Example: if the user inputs 5, it will generate a list of all values between 1 and 5.
 Replaces all multiples of 3 with the term "Ping".
 -Example: if the user inputs 7, it will generate the list [1, 2, ping, 4, 5, ping, 7]
 Replaces all multiples of 5 with the term "Pong".

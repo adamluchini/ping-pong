@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <head>
-      <link href="css/bootstrap.css" rel="stylesheet" type="text/css"></link>
-      <link href="css/styles.css" rel="stylesheet" type="text/css"></link>
-      <script src="js/jquery-1.12.4.js"></script>
-      <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"></link>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
   </head>
   <body class="body">
-      <div class="jumbotron">
-        <div class="container">
-          <h1>Sedentary Ping Pong</h1>
-          <img src="img/sloth-pong.jpg" alt="sloth">
-          <h2>Have all the fun of Ping Pong without leaving your chair!</h2>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Sedentary Ping Pong</h1>
+        <img src="img/sloth-pong.jpg" alt="sloth">
+        <h2>Have all the fun of Ping Pong without leaving your chair!</h2>
+      </div>
+    </div>
+      <div id="playResults">
+        <h1>How to Play</h1>
+        <h2>Sedentary Ping Pong will generate a list from #1 to the number you enter while converting...</h2>
+          <ul>
+            <p>Any numbers divisible by 3 to "Ping"</p>
+            <p>Any numbers divisible by 5 to "Pong"</p>
+            <p>Any numbers divisible by 15 to "Ping Pong"</p>
+          </ul>
+        <form id="playPingPong"   class="form-inline">
+          <div class="form-group">
+            <input id="number" type="text" placeholder="type a number here">
+          </div>
+          <button class="button" type="submit" class="btn">Serve!</button>
+        </form>
+        <br>
+        <div id="results">
+          <ul id="ping-pong-list">
+          </ul>
         </div>
       </div>
-          <div id="playResults">
-            <h1>How to Play</h1>
-            <h2>Sedentary Ping Pong will generate a list from #1 to the number you enter while converting...</h2>
-              <ul>
-                <p>Any numbers divisible by 3 to "Ping"</p>
-                <p>Any numbers divisible by 5 to "Pong"</p>
-                <p>Any numbers divisible by 15 to "Ping Pong"</p>
-              </ul>
-            <form id="playPingPong"   class="form-inline">
-              <div class="form-group">
-                <input id="number" type="text" placeholder="type a number here">
-              </div>
-              <button class="button" type="submit" class="btn">Serve!</button>
-            </form>
-            <br>
-            <div id="results">
-              <ul id="ping-pong-list">
-              </ul>
-            </div>
-          </div>
-      </div>
-    </body>
+  </body>
   </html>
